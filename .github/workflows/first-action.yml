@@ -6,14 +6,15 @@ on:
             - main
 jobs:
     first-job:
-        runs-on: ubantu_Latest
+        runs-on: ubuntu-latest
         steps:
             #first step
             - name: Print welcome 
               run: echo "welcome"
             #second step
             - name: Display current directory
-              run: echo "pwd"
+              run: pwd
+              
 
 
 
